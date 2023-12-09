@@ -43,7 +43,7 @@
             <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
           </ul>
         </nav>
-        <div class="nav-responsive" onclick="mostrarOcultarMenuk()">
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
           <i class="fa-solid fa-bars"></i>
         </div>
       </header>
@@ -464,21 +464,23 @@
         <div class="fila">
           <!-- Formulario -->
           <div class="col">
-            <input type="text" placeholder="Tú nombre" />
-            <input type="text" placeholder="Numero Telefonico" />
-            <input type="text" placeholder="Correo" />
-            <input type="text" placeholder="Tema" />
+            <form action="https://formsubmit.co/suarezdiego297@gmail.com" method="POST" />
+            <input type="text" name="name" placeholder="Nombre" />
+            <input type="text" name="Telefono" placeholder="Numero Telefonico" />
+            <input type="text" name="correo" placeholder="Correo" />
+            <input type="text" name="tema" placeholder="Tema" />
             <textarea
-              name=""
+              name="descripcion"
               id=""
               cols="30"
               rows="10"
               placeholder="Tú descripcion"
             ></textarea>
-            <button>
+            <button type="submit" value="Enviar">
               Enviar <i class="fa-sharp fa-solid fa-paper-plane"></i>
               <span class="overlay"></span>
             </button>
+          </form>
           </div>
           <!-- Mapa -->
           <div class="col">

@@ -7,7 +7,7 @@ function mostrarOcultarMenu(){
         document.getElementById("nav").classList="";
         menuVisible = false;
     }else{
-        document.getElementById("nav").classList="responsive";
+        document.getElementById("nav").classList ="responsive";
         menuVisible = true;
     }
 }
