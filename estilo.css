@@ -510,6 +510,12 @@ html{
     display: block;
 }
 
+.portafolio .galeria .proyecto video {
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+}
+
 .portafolio .galeria .proyecto .overlay{
     border-radius: 10px;
     position: absolute;
