@@ -492,6 +492,8 @@ html{
 }
 
 .portafolio .galeria{
+    column-count: 2; /*Mover siempre y cuando se requiere diferentes posiciones en la columna*/
+    column-gap: 20px; /*Mover siempre y cuando se requiere diferentes posiciones en la columna*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
