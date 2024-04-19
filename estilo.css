@@ -317,13 +317,24 @@ html{
     100%{width: 95%;}
 }
 
+
+.skills .skill .PowerBi{
+    width: 0%;
+    animation: 2s PowerBi forwards;
+}
+@keyframes PowerBi {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+
 .skills .skill .comunicacion{
     width: 0%;
     animation: 2s comunicacion forwards;
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 79%;}
 }
 
 
@@ -333,7 +344,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 87%;}
 }
 
 .skills .skill .proactivo{
@@ -342,7 +353,7 @@ html{
 }
 @keyframes proactivo {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 89%;}
 }
 
 .skills .skill .responsable{
