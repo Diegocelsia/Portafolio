@@ -278,7 +278,7 @@ html{
 }
 @keyframes javascript {
     0% { width: 0%; }
-    100% { width: 70%; }
+    100% { width: 75%; }
 }
 
 .skills .skill .node {
@@ -315,7 +315,7 @@ html{
 }
 @keyframes python {
     0% { width: 0%; }
-    100% { width: 60%; }
+    100% { width: 75%; }
 }
 
 .skills .skill .git {
